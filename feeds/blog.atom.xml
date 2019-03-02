@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Christiano Anderson - blog</title><link href="https://christiano.dev/" rel="alternate"></link><link href="https://christiano.dev/feeds/blog.atom.xml" rel="self"></link><id>https://christiano.dev/</id><updated>2019-03-02T13:34:00+01:00</updated><entry><title>First Pelican post</title><link href="https://christiano.dev/first-pelican-post.html" rel="alternate"></link><published>2019-03-02T13:34:00+01:00</published><updated>2019-03-02T13:34:00+01:00</updated><author><name>Christiano Anderson</name></author><id>tag:christiano.dev,2019-03-02:/first-pelican-post.html</id><summary type="html">&lt;p class="first last"&gt;Moving my main blog to Pelican just to get more hack.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This is my first post in Pelican, I'd like to get more closed to hacking and other stuffs.&lt;/p&gt;
+&lt;p&gt;This is the second paragraph&lt;/p&gt;
+&lt;p&gt;This is another one and this is &lt;strong&gt;bold&lt;/strong&gt; and this is &lt;em&gt;italic&lt;/em&gt; it's really good.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;First line&lt;/li&gt;
+&lt;li&gt;Second line&lt;/li&gt;
+&lt;li&gt;Third line&lt;/li&gt;
+&lt;/ol&gt;
+</content><category term="blog"></category></entry></feed>
