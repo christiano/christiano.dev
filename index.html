@@ -1,48 +1,72 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Christiano Anderson - Data Engineer, Cloud Engineer, AWS, Google Cloud</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Christiano Anderson</h1>
-						<p>Data Engineer, Cloud Engineer, AWS, Google Cloud, Python, Julia, Big Data</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/dump" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/christiano" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/christianoanderson/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://christiano.me" class="icon brands fa-wordpress"><span class="label">Blog</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+	<title>Christiano Anderson - Data Engineer, Data Architect, Cloud, Python</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84612618-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyleft">&copy; Christiano Anderson. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+		gtag('config', 'UA-84612618-3');
+	</script>
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main">
+			<header>
+				<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+				<h1>Christiano Anderson</h1>
+				<p>Data Engineer, Data Architect, Cloud (AWS, Google), Python, Julia, Free Software</p>
+			</header>
+			<footer>
+				<ul class="icons">
+					<li><a href="https://twitter.com/dump" class="icon brands fa-twitter">Twitter</a></li>
+					<li><a href="https://www.linkedin.com/in/christianoanderson/" class="icon brands fa-linkedin">Linkedin</a></li>
+					<li><a href="https://github.com/christiano" class="icon brands fa-github">Github</a></li>
+					<li><a href="https://christiano.me" class="icon brands fa-wordpress">Blog</a></li>
+					<li><a href="https://www.slideshare.net/canderson" class="icon brands fa-slideshare">Slideshare</a></li>
+					<li><a href="https://christiano.me/contact-en/" class="icon fa-envelope">Contact</a></li>
+				</ul>
+			</footer>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; Christiano Anderson</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
+
+</body>
+
 </html>
